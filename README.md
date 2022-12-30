@@ -8,8 +8,11 @@
 ### <br>풀이 일기
 ---
 날짜 : 2022.12.30.  
-푼 문제 : 몰라  
+푼 문제 : 프린트  
+  
+파이썬에서 프린트를 했다.
 ```python
-print("Hello, world!")
+print("hello world")
 ```
-print로 출력만 하면 된다.# kimdohoon
+
+---
