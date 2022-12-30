@@ -17,3 +17,4 @@ for i in range(test_num):
         print("1")
     else:
         print("0")
+
