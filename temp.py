@@ -1,2 +1,4 @@
-print(21 // 10)
-print(21 % 10)
+k = '[]'
+k = k.strip('[')
+k = k.strip(']')
+print(k)

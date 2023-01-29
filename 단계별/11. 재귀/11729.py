@@ -1,16 +1,12 @@
-def hanoi(l1,l2,l3):
-    if l1 == [] and l2 == []:
-        pass
+def hanoi(n, first, second, third):
+    if n == 1:
+        print(first, third)
     else:
-        
+        hanoi(n - 1, first, third, second)
+        print(first, third)
+        hanoi(n - 1, second, first, third)
 
 
-
-
-
-onepan = int(input())
-p1 = []
-p2 = []
-p3 = []
-for i in range(onepan):
-    p1.append(i+1)
+num = int(input())
+print(2**num - 1)
+hanoi(num, 1, 2, 3)
