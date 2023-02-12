@@ -6,4 +6,4 @@ a.sort()
 if a[-1] % 2 == 0:
     print(2*a[-1])
 else:
-    print(a[-1] * a[-2])
+    print(a[0] * a[-1])

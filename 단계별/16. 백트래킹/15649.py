@@ -1,6 +1,5 @@
-from itertools import permutations
-
 n, m = map(int, input().split())
-lst = [i+1 for i in range(n)]
-for i in permutations(lst, m):
-    print(*i)
+
+def permutation(lst):
+    if len(lst) == m:
+        print(' '.join(map(str, lst)))
